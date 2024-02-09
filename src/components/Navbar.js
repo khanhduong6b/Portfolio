@@ -41,7 +41,7 @@ function NavBar() {
         <Navbar.Brand href="/" className="d-flex">
           <Nav.Item>
             <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-              <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+              <AiOutlineHome style={{ marginBottom: "2px"}} /> Home
             </Nav.Link>
           </Nav.Item>
         </Navbar.Brand>
